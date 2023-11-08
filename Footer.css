@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("Image/Footer.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.background{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background: black;
+    opacity: 0.5;
+}
+.footer-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
